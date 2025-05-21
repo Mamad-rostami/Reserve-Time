@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    direction: rtl;
+    background-color: #f3f4f6;
+    color: #333;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+label , select , button , input{
+    display: block;
+    margin: 10px 0;
+}
+h1,h2{
+    text-align: center;
+    color: #1f2937;
+}
+input,select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #1e40af;
+}
+ul{
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+li{
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}

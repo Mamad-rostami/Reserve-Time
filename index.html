@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/moment-jalaali@0.9.1/lib/moment-jalaali.min.js"></script> -->
+
+    <title>نوبت دهی</title>
+</head>
+<body>
+    <h1>اپلیکیشن نوبت دهی محلی</h1>
+    <label for="serviceProvider">انتخاب ارایًه دهنده خدمت</label>
+
+    <input type="text" id="username" placeholder="نام و نام خانوادگی خود را وارد کنید...">
+    
+    <select id="serviceProvider">
+        <option value="آرایشگر">آرایشگر</option>
+        <option value="تعمیرکار">تعمیرکار</option>
+        <option value="خیاط">خیاط</option>
+        <option value="صافکار">صافکار</option>
+        <option value="رنگ کار">رنگ کار</option>
+        <option value="نظافتچی">نظافتچی</option>
+    </select>
+    <label for="date">تاریخ :</label>
+    <input type="date" id="date">
+
+    <label for="time">زمان :</label>
+    <input type="time" id="time">
+    
+    <button id="submit">ثبت نوبت</button>
+
+    <h2>نوبت های ثبت شده</h2>
+    <ul id="appointmentList"></ul>
+
+
+    <script src="script.js" defer></script>
+    
+</body>
+</html>
